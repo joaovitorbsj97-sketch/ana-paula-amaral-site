@@ -1,0 +1,56 @@
+'use client'
+
+export default function About() {
+  return (
+    <section id="about" className="section-spacing bg-quiet-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        {/* Foto profissional */}
+        <div className="w-full h-96 bg-quiet-sand rounded-lg flex items-center justify-center">
+          <div className="text-quiet-brown text-center">
+            <p className="text-sm opacity-60">Foto profissional</p>
+            <p className="text-xs opacity-40 mt-2">(Colocar aqui)</p>
+          </div>
+        </div>
+
+        {/* Texto */}
+        <div>
+          <h2 className="section-title">Quem Sou</h2>
+
+          <p className="text-lg text-quiet-brown opacity-80 mb-6 leading-relaxed">
+            Sou <span className="font-semibold">esteticista especializada em pós-operatório</span> com <span className="font-semibold">10 anos de experiência</span> cuidando de mulheres em seus momentos mais delicados.
+          </p>
+
+          <div className="space-y-4 mb-8">
+            <div>
+              <h3 className="font-montserrat font-semibold text-quiet-brown mb-2">Formação</h3>
+              <p className="text-quiet-brown opacity-70">
+                Esteticista e Cosmetóloga certificada com especialização em <span className="font-semibold">Leduc Méthode</span> — técnica de drenagem linfática de reconhecimento internacional pela Ecole de Drainage Lymphatique de Bruxelles.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-montserrat font-semibold text-quiet-brown mb-2">Especialidade</h3>
+              <p className="text-quiet-brown opacity-70">
+                Meu foco é o atendimento pós-operatório de cirurgias plásticas: lipoaspiração, abdominoplastia, prótese de mama, BBL. Cada paciente recebe um protocolo personalizado baseado em sua cirurgia.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="font-montserrat font-semibold text-quiet-brown mb-2">Abordagem</h3>
+              <p className="text-quiet-brown opacity-70">
+                Acredito que pós-operatório vai além de técnica. É acolhimento, educação e presença. Meu consultório home office oferece a privacidade e tranquilidade que você merece nesse momento.
+              </p>
+            </div>
+          </div>
+
+          <a
+            href="https://wa.me/5521999999999"
+            className="btn-primary inline-block"
+          >
+            Agendar Avaliação
+          </a>
+        </div>
+      </div>
+    </section>
+  )
+}

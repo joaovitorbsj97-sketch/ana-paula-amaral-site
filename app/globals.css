@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5F3F0;
+  color: #3E2723;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: -0.5px;
+}
+
+.section-spacing {
+  @apply py-20 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto;
+}
+
+.hero-spacing {
+  @apply py-32 px-4 md:px-8 lg:px-16;
+}
+
+.text-quiet-brown {
+  color: #3E2723;
+}
+
+.bg-quiet-white {
+  background-color: #F5F3F0;
+}
+
+.btn-primary {
+  @apply bg-quiet-gold text-quiet-white px-8 py-4 rounded-lg font-montserrat font-medium hover:opacity-90 transition-opacity;
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-playfair font-bold text-quiet-brown mb-8;
+}
+
+.subtle-divider {
+  @apply h-px bg-gradient-to-r from-transparent via-quiet-gold to-transparent;
+}
