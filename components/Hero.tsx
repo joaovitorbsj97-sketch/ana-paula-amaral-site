@@ -31,7 +31,7 @@ export default function Hero() {
 
         {/* Descrição */}
         <p className="text-lg text-quiet-brown opacity-70 mb-12 max-w-2xl mx-auto leading-relaxed">
-          Ajudo mulheres a recuperarem a autoestima e a saúde no pós-operatório com tratamentos exclusivos e atendimento premium intimista no meu consultório home office.
+          Ajudo mulheres a recuperarem a autoestima e a saúde no pós-operatório com tratamentos exclusivos e atendimento premium a domicílio na Tijuca, bairros adjacentes e Zona Sul do Rio.
         </p>
 
         {/* CTA Principal */}

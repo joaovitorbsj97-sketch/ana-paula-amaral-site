@@ -10,7 +10,7 @@ export default function About() {
         <div className="relative w-full max-w-md mx-auto aspect-[3/4] rounded-lg overflow-hidden ring-1 ring-quiet-nude shadow-sm">
           <Image
             src="/sobre-ana.jpg"
-            alt="Ana Paula Amaral em seu consultório home office"
+            alt="Ana Paula Amaral — esteticista especialista em pós-operatório"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
@@ -43,7 +43,7 @@ export default function About() {
             <div>
               <h3 className="font-montserrat font-semibold text-quiet-brown mb-2">Abordagem</h3>
               <p className="text-quiet-brown opacity-70">
-                Acredito que pós-operatório vai além de técnica. É acolhimento, educação e presença. Meu consultório home office oferece a privacidade e tranquilidade que você merece nesse momento.
+                Acredito que pós-operatório vai além de técnica. É acolhimento, educação e presença. Por isso atendo a domicílio — você recebe o cuidado na privacidade da sua casa, sem precisar se deslocar nesse momento delicado de recuperação.
               </p>
             </div>
           </div>

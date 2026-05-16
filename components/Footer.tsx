@@ -63,8 +63,9 @@ export default function Footer() {
                 📸 Instagram
               </a>
               <p className="text-quiet-white opacity-70">
-                📍 Atendimento domiciliar<br/>
-                Tijuca e Zona Sul - RJ
+                📍 Atendimento a domicílio<br/>
+                Tijuca, bairros adjacentes<br/>
+                e Zona Sul — RJ
               </p>
             </div>
           </div>

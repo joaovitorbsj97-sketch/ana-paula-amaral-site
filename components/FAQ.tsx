@@ -28,11 +28,11 @@ export default function FAQ() {
     },
     {
       q: 'Você atende em qual região?',
-      a: 'Atendo em consultório home office, com privacidade total. A região e o agendamento são confirmados diretamente comigo no WhatsApp.',
+      a: 'Atendo a domicílio na Tijuca, bairros adjacentes e Zona Sul do Rio de Janeiro. Você recebe o tratamento no conforto da sua casa, com toda a estrutura levada até você. O agendamento e os detalhes da logística confirmamos diretamente no WhatsApp.',
     },
     {
       q: 'O atendimento é confidencial?',
-      a: 'Totalmente. O consultório é home office, com privacidade total. Sigilo profissional garantido — entendo o quanto esse momento pede discrição.',
+      a: 'Totalmente. Atendo na privacidade da sua casa, com discrição absoluta. Sigilo profissional garantido — entendo o quanto esse momento pede tranquilidade.',
     },
     {
       q: 'Qual é a diferença entre drenagem manual e aparelhada?',
