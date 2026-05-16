@@ -1,15 +1,20 @@
 'use client'
 
+import Image from 'next/image'
+
 export default function About() {
   return (
     <section id="about" className="section-spacing bg-quiet-white">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        {/* Foto profissional */}
-        <div className="w-full h-96 bg-quiet-sand rounded-lg flex items-center justify-center">
-          <div className="text-quiet-brown text-center">
-            <p className="text-sm opacity-60">Foto profissional</p>
-            <p className="text-xs opacity-40 mt-2">(Colocar aqui)</p>
-          </div>
+        {/* Foto profissional contextual */}
+        <div className="relative w-full max-w-md mx-auto aspect-[3/4] rounded-lg overflow-hidden ring-1 ring-quiet-nude shadow-sm">
+          <Image
+            src="/sobre-ana.jpg"
+            alt="Ana Paula Amaral em seu consultório home office"
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className="object-cover"
+          />
         </div>
 
         {/* Texto */}

@@ -1,17 +1,22 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
     <section className="hero-spacing bg-quiet-white min-h-screen flex flex-col justify-center items-center text-center">
       <div className="max-w-4xl mx-auto">
-        {/* Placeholder para foto profissional */}
-        <div className="mb-12 w-80 h-80 mx-auto bg-quiet-sand rounded-lg flex items-center justify-center">
-          <div className="text-quiet-brown text-center">
-            <p className="text-sm opacity-60">Foto profissional (480x480px)</p>
-            <p className="text-xs opacity-40 mt-2">Será colocada aqui</p>
-          </div>
+        {/* Foto profissional Hero */}
+        <div className="mb-12 w-80 h-80 mx-auto rounded-full overflow-hidden ring-1 ring-quiet-nude shadow-sm relative">
+          <Image
+            src="/hero-ana.jpg"
+            alt="Ana Paula Amaral — esteticista especialista em pós-operatório"
+            fill
+            sizes="320px"
+            priority
+            className="object-cover"
+          />
         </div>
 
         {/* Título principal */}

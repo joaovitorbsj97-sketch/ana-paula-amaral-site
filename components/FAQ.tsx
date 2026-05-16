@@ -12,23 +12,31 @@ export default function FAQ() {
     },
     {
       q: 'Preciso fazer drenagem TODOS os dias?',
-      a: 'Depende da fase. Semanas 1-2 (inchaço máximo): sim, diariamente. Semanas 3-6: 3-4x por semana. Semanas 6+: 1-2x por semana ou manutenção. Tudo personalizado.',
+      a: 'Depende da fase. Semanas 1-2 (inchaço máximo): sim, diariamente. Semanas 3-6: 3-4x por semana. Semanas 6+: 1-2x por semana ou manutenção. Tudo personalizado conforme sua cirurgia e evolução.',
     },
     {
-      q: 'Quanto custa uma sessão?',
-      a: 'Varia conforme o procedimento. Ofereço pacotes (10, 20 ou 30 sessões) com valores mais competitivos. Entre em contato para um orçamento personalizado.',
+      q: 'Só 10 sessões resolvem ou vou precisar de mais?',
+      a: 'O pacote de 10 sessões é o ponto de partida e atende a maior parte dos casos no pós-operatório imediato. A quantidade ideal, porém, depende da sua cirurgia, do seu corpo e da fase de recuperação — é definida na avaliação inicial e ajustada ao longo do tratamento. Você não fica refém de um número fixo: o protocolo evolui com você.',
+    },
+    {
+      q: 'O pacote tem condição diferente da sessão avulsa?',
+      a: 'Sim. Fechar o pacote completo significa garantir o protocolo inteiro, com agenda reservada e continuidade — que é o que realmente entrega resultado no pós-op. Os valores do pacote são pensados pra isso. Detalhes do investimento e formas de pagamento conversamos diretamente no WhatsApp.',
+    },
+    {
+      q: 'É possível parcelar?',
+      a: 'Sim. Parcelo o pacote em até 4x sem juros no cartão. Para pagamento à vista no Pix, ofereço 5% de desconto. Combinamos o melhor formato pra você no WhatsApp.',
     },
     {
       q: 'Você atende em qual região?',
-      a: 'Atendo em domicílio na Tijuca, Zona Sul e bairros adjacentes do Rio de Janeiro. Agendo conforme sua conveniência.',
+      a: 'Atendo em consultório home office, com privacidade total. A região e o agendamento são confirmados diretamente comigo no WhatsApp.',
     },
     {
       q: 'O atendimento é confidencial?',
-      a: 'Totalmente. Meu consultório é home office com privacidade total. Sigilo profissional garantido.',
+      a: 'Totalmente. O consultório é home office, com privacidade total. Sigilo profissional garantido — entendo o quanto esse momento pede discrição.',
     },
     {
       q: 'Qual é a diferença entre drenagem manual e aparelhada?',
-      a: 'Manual (Leduc) oferece controle total, sensibilidade e é menos agressiva. Aparelhada é mais rápida mas menos personalizável. Para pós-op, manual é mais recomendada.',
+      a: 'A drenagem manual pelo método Leduc oferece controle total, sensibilidade e personalização sessão a sessão — é menos agressiva e adapta a pressão ao seu tecido naquele dia. A aparelhada é mais rápida, mas menos sensível. Para pós-operatório, a manual é o padrão-ouro.',
     },
   ]
 

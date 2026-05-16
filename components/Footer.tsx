@@ -16,26 +16,31 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-montserrat font-semibold mb-4 text-quiet-gold">Serviços</h4>
+            <h4 className="font-montserrat font-semibold mb-4 text-quiet-gold">Especialidade</h4>
             <ul className="space-y-2 text-sm text-quiet-white opacity-70">
               <li>
                 <a href="#servicos" className="hover:text-quiet-gold transition-colors">
-                  Drenagem Pós-Lipo
+                  Drenagem pós-lipo
                 </a>
               </li>
               <li>
                 <a href="#servicos" className="hover:text-quiet-gold transition-colors">
-                  Pós-Abdominoplastia
+                  Pós-abdominoplastia
                 </a>
               </li>
               <li>
                 <a href="#servicos" className="hover:text-quiet-gold transition-colors">
-                  Pós-Prótese
+                  Pós-prótese de mama
                 </a>
               </li>
               <li>
                 <a href="#servicos" className="hover:text-quiet-gold transition-colors">
-                  Acompanhamento
+                  Pós-BBL
+                </a>
+              </li>
+              <li>
+                <a href="#servicos" className="hover:text-quiet-gold transition-colors">
+                  Tratamentos faciais e corporais
                 </a>
               </li>
             </ul>
