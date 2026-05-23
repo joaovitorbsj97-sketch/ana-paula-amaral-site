@@ -51,16 +51,18 @@ export default function Footer() {
             <h4 className="font-montserrat font-semibold mb-4 text-quiet-gold">Contato</h4>
             <div className="space-y-3 text-sm">
               <a
-                href="https://wa.me/5521999999999"
+                href="https://wa.me/5521997378503"
                 className="text-quiet-white opacity-70 hover:text-quiet-gold transition-colors block"
               >
-                📱 WhatsApp
+                📱 (21) 99737-8503
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/anamarinsesteticista"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-quiet-white opacity-70 hover:text-quiet-gold transition-colors block"
               >
-                📸 Instagram
+                📸 @anamarinsesteticista
               </a>
               <p className="text-quiet-white opacity-70">
                 📍 Atendimento a domicílio<br/>
