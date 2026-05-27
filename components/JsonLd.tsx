@@ -11,7 +11,17 @@ const localBusiness = {
   description:
     'Drenagem linfática pós-operatória manual (método Leduc) com atendimento a domicílio na Zona Sul, Barra da Tijuca e Tijuca, no Rio de Janeiro. Especialista em pós-lipo, pós-abdominoplastia, pós-prótese de mama e pós-BBL.',
   url: SITE_URL,
-  image: `${SITE_URL}/hero-ana.jpg`,
+  image: [
+    `${SITE_URL}/hero-ana.jpg`,
+    `${SITE_URL}/sobre-ana.jpg`,
+    `${SITE_URL}/opengraph-image.png`,
+  ],
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Rio de Janeiro',
+    addressRegion: 'RJ',
+    addressCountry: 'BR',
+  },
   telephone: '+5521997378503',
   priceRange: '$$$',
   foundingDate: '2015',
