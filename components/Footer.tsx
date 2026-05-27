@@ -66,8 +66,8 @@ export default function Footer() {
               </a>
               <p className="text-quiet-white opacity-70">
                 📍 Atendimento a domicílio<br/>
-                Tijuca, bairros adjacentes<br/>
-                e Zona Sul — RJ
+                Zona Sul, Barra da Tijuca<br/>
+                e Tijuca — RJ
               </p>
             </div>
           </div>

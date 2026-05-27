@@ -19,25 +19,23 @@ export default function Hero() {
           />
         </div>
 
-        {/* Título principal */}
         <h1 className="text-5xl md:text-6xl font-playfair font-bold text-quiet-brown mb-6">
           Ana Paula Amaral
+          <span className="sr-only"> — Esteticista Pós-Operatório no Rio de Janeiro</span>
         </h1>
 
-        {/* Subtítulo */}
-        <p className="text-xl md:text-2xl text-quiet-brown opacity-80 mb-4 font-light">
-          Especialista em Pós-Operatório
-        </p>
+        <h2 className="text-xl md:text-2xl text-quiet-brown opacity-80 mb-4 font-light font-montserrat">
+          Esteticista Pós-Operatório · Rio de Janeiro
+        </h2>
 
-        {/* Descrição */}
         <p className="text-lg text-quiet-brown opacity-70 mb-12 max-w-2xl mx-auto leading-relaxed">
-          Ajudo mulheres a recuperarem a autoestima e a saúde no pós-operatório com tratamentos exclusivos e atendimento premium a domicílio na Tijuca, bairros adjacentes e Zona Sul do Rio.
+          Ajudo mulheres a recuperarem a autoestima e a saúde no pós-operatório com tratamentos exclusivos e atendimento premium a domicílio na Zona Sul, Barra da Tijuca e Tijuca, no Rio de Janeiro.
         </p>
 
         {/* CTA Principal */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://wa.me/5521999999999"
+            href="https://wa.me/5521997378503"
             className="btn-primary inline-block"
           >
             Agendar Avaliação
