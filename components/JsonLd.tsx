@@ -14,6 +14,14 @@ const localBusiness = {
   image: `${SITE_URL}/hero-ana.jpg`,
   telephone: '+5521997378503',
   priceRange: '$$$',
+  foundingDate: '2015',
+  currenciesAccepted: 'BRL',
+  paymentAccepted: 'Cash, Credit Card, Pix',
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: -22.97,
+    longitude: -43.22,
+  },
   areaServed: [
     { '@type': 'AdministrativeArea', name: 'Zona Sul do Rio de Janeiro' },
     { '@type': 'AdministrativeArea', name: 'Barra da Tijuca' },
