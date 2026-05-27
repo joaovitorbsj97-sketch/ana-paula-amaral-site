@@ -49,7 +49,7 @@ export default function About() {
           </div>
 
           <a
-            href="https://wa.me/5521999999999"
+            href="https://wa.me/5521997378503"
             className="btn-primary inline-block"
           >
             Agendar Avaliação

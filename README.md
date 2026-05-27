@@ -64,7 +64,7 @@ site-codigo/
 - Textos estão em português (PT-BR)
 
 ### Mudar Número WhatsApp
-- Buscar `https://wa.me/5521999999999` em todos os arquivos
+- Buscar `https://wa.me/5521997378503` em todos os arquivos
 - Substituir pelo número real
 
 ## 🔧 Tecnologias
